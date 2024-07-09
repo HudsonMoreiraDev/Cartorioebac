@@ -123,7 +123,8 @@ int main()
 		printf("Escolha a opção desejada do menu:\n\n");
 		printf("\t1 - Registrar nomes\n\n");
 		printf("\t2 - Consultar nomes\n\n");
-		printf("\t3 - Deletar nomes\n\n"); //fim do menu
+		printf("\t3 - Deletar nomes\n\n");
+		printf("\t4 - Sair do programa\n"); //fim do menu
 		
 		printf("Opção:");
 		
@@ -143,6 +144,11 @@ int main()
 			
 			case 3:
 			deletar();
+			break;
+			
+			case 4:
+			printf("O programa está sendo encerrado.");
+			return 0;
 			break;
 			
 			default:
